@@ -1,0 +1,34 @@
+:root {
+  --canvas-bg: #16181d;
+  --node-bg: #22252b;
+  --node-border: #383c44;
+  --link-color: #565c66;
+  --text-primary: #e6e8eb;
+  --text-secondary: #8a8f98;
+  --accent: #5b8dfc;
+  --accent-ring: rgba(91, 141, 252, 0.35);
+
+  color-scheme: dark;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--canvas-bg);
+  color: var(--text-primary);
+  overflow: hidden;
+}
+
+button,
+input {
+  font-family: inherit;
+}
